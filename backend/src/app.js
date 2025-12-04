@@ -7,8 +7,18 @@ dotenv.config();
 
 const app = express();
 
-// Middleware
-app.use(cors());
+// CORS Configuration for production
+const corsOptions = {
+  origin: [
+    'http://localhost:3000',
+    'https://plantone-six.vercel.app',
+    process.env.FRONTEND_URL
+  ],
+  credentials: true,
+  optionsSuccessStatus: 200
+};
+
+app.use(cors(corsOptions));
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
