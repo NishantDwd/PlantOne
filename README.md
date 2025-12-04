@@ -70,93 +70,23 @@ PlantOne Foundation is a community-driven initiative to restore Bundelkhand's de
 
 ## Flow Diagram 
 
-START
-  │
-  ├─► Landing Page (Home)
-  │     │
-  │     ├─► View Mission & Impact
-  │     ├─► View Statistics
-  │     └─► Call to Action
-  │           │
-  │           ├─► "Join as Donor" → Donor Registration
-  │           └─► "Donate Now" → Donation Form
-  │
-  ├─► Donor Registration Flow
-  │     │
-  │     ├─► Fill Donor Form
-  │     │     ├─► Name
-  │     │     ├─► Email
-  │     │     ├─► Phone
-  │     │     ├─► Address (City, State, Country, Pincode)
-  │     │     └─► Optional Note
-  │     │
-  │     ├─► Validate Data
-  │     │     ├─► Check Email Format
-  │     │     ├─► Check Required Fields
-  │     │     └─► Check Duplicate Email
-  │     │
-  │     ├─► Submit to Backend
-  │     │
-  │     └─► Success
-  │           ├─► Show Confirmation
-  │           └─► Redirect to Donor List
-  │
-  ├─► Donation Flow
-  │     │
-  │     ├─► Select/Create Donor Profile
-  │     │
-  │     ├─► Fill Donation Form
-  │     │     ├─► Choose Donation Type (One-time/Weekly/Monthly)
-  │     │     ├─► Select Impact (Adopt 5/10 trees/Other)
-  │     │     ├─► Enter Amount
-  │     │     ├─► Select Payment Mode (UPI/Card/Net Banking/Cash)
-  │     │     ├─► On Behalf Of (Optional)
-  │     │     └─► Message (Optional)
-  │     │
-  │     ├─► Submit Donation
-  │     │
-  │     └─► Success Page
-  │           ├─► Display Receipt
-  │           │     ├─► Donation ID
-  │           │     ├─► Amount
-  │           │     ├─► Payment Mode
-  │           │     └─► Impact Type
-  │           │
-  │           ├─► What You'll Receive
-  │           │     ├─► Donation Certificate
-  │           │     ├─► Impact Dashboard Access
-  │           │     └─► Geo-tagged Updates
-  │           │
-  │           └─► Action Buttons
-  │                 ├─► Back to Home
-  │                 └─► Make Another Donation
-  │
-  ├─► View Donors List
-  │     │
-  │     ├─► Display All Donors
-  │     │     ├─► Search by Name/Email/City
-  │     │     ├─► View Statistics
-  │     │     └─► Donor Cards with Details
-  │     │
-  │     └─► Actions
-  │           ├─► Donate → Donation Form (Pre-filled)
-  │           ├─► Edit → Edit Donor Form
-  │           └─► Delete → Confirm & Delete
-  │
-  └─► View Donations List
-        │
-        ├─► Display All Donations
-        │     ├─► Search Functionality
-        │     ├─► Filter by Type
-        │     ├─► Statistics Dashboard
-        │     └─► Donation Records
-        │
-        └─► Show Details
-              ├─► Donor Information
-              ├─► Amount & Payment Mode
-              ├─► Impact Type
-              ├─► Date & Status
-              └─► Message
+User Input
+   ↓
+Frontend (React)
+   ↓
+API Request (Axios)
+   ↓
+Backend Routes (Express)
+   ↓
+Controllers (Business Logic)
+   ↓
+Models (SQL Queries)
+   ↓
+PostgreSQL Database
+   ↓
+Response
+   ↓
+Frontend Display
 
 
 ## 📁 Project Structure
