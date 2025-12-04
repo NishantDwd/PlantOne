@@ -162,6 +162,29 @@ START
 
 ```
 
+## Data Flow Summary
+```
+
+User Input
+   ↓
+Frontend (React)
+   ↓
+API Request (Axios)
+   ↓
+Backend Routes (Express)
+   ↓
+Controllers (Business Logic)
+   ↓
+Models (SQL Queries)
+   ↓
+PostgreSQL Database
+   ↓
+Response
+   ↓
+Frontend Display
+
+```
+
 ## 📁 Project Structure
 
 ```
