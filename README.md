@@ -16,8 +16,7 @@ A full-stack web application for managing tree plantation donations and donor pr
 - [API Documentation](#api-documentation)
 - [Database Schema](#database-schema)
 - [Deployment](#deployment)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## 🌍 Overview
 
