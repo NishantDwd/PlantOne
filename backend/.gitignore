@@ -1,0 +1,17 @@
+# Dependencies
+node_modules/
+package-lock.json
+
+# Environment variables
+.env
+
+
+# IDE
+.vscode/
+
+# Build outputs
+dist/
+build/
+out/
+
+
