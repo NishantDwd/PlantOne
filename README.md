@@ -2,8 +2,9 @@
 
 A full-stack web application for managing tree plantation donations and donor profiles in the Bundelkhand region. Built with transparency, impact tracking, and community empowerment at its core.
 
-[![Frontend URL](https://img.shields.io/badge/Live-Demo-green)](https://plantone-six.vercel.app/)
-[![Backend URL](https://img.shields.io/badge/API-Live-blue)](https://plantone-backend.onrender.com)
+[![Frontend URL](https://img.shields.io/badge/Frontend-Live-brightgreen)](https://plantone-six.vercel.app/)
+[![Backend URL](https://img.shields.io/badge/Backend-API_Live-blue)](https://plantone-backend.onrender.com)
+
 
 ## 📋 Table of Contents
 
